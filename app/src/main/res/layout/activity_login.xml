@@ -31,26 +31,28 @@
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:layout_weight="1"
         android:ems="10"
-        android:hint="Username"
-        android:textColor="#B5B5B5"
         android:fontFamily="sans-serif-thin"
+        android:hint="Username"
+        android:textStyle="bold"
+        android:textColor="#B5B5B5" />
 
-        />
-
- <EditText
-     android:id="@+id/etPassword"
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:layout_weight="1"
-     android:ems="10"
-     android:hint="Password"
-     android:inputType="textPassword"
-     android:textColor="#B5B5B5"
-     android:fontFamily="sans-serif-thin"
-
-     />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:fontFamily="sans-serif-thin"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textColor="#B5B5B5" />
 
 
     <ProgressBar
@@ -73,14 +75,36 @@
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
         android:layout_weight="1"
         android:background="@drawable/round_button"
+        android:backgroundTint="#0F80F4"
+        android:fontFamily="sans-serif-thin"
         android:paddingTop="0dp"
         android:text="Login"
         android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#FAFAFA"
         android:fontFamily="sans-serif-thin"
-        android:textStyle="bold"/>
+        android:paddingTop="0dp"
+        android:text="Sign Up"
+        android:textColor="#1168F1"
+        android:textStyle="bold" />
+
+
 </LinearLayout>
 
 

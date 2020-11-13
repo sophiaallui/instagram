@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         public static final int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 42;
         private EditText etDescription;
         private Button btnCaptureImage;
+        private Button btnLogout;
         private ImageView ivPostImage;
         private Button btnSubmit;
         private File photoFile;
@@ -52,6 +53,17 @@ public class MainActivity extends AppCompatActivity {
         btnCaptureImage = findViewById(R.id.btnCaptureImage);
         ivPostImage = findViewById(R.id.ivPostImage);
         btnSubmit = findViewById(R.id.btnSubmit);
+        btnLogout = findViewById(R.id.btnLogout);
+
+        btnLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i(TAG, "onClick logout button");
+                ParseUser.logOut();
+                goLoginActivity();
+
+            }
+        });
 
         btnCaptureImage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,6 +90,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+    }
+
+    private void goLoginActivity() {
+        Intent i = new Intent(this, LoginActivity.class);
+        startActivity(i);
+        finish();
 
     }
 

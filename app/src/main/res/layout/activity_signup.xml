@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sofia"
+        android:text="Instagram"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#6C6A6A"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/promptUsername"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="Sign up to see photos and videos                                                        from your friends!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#97595757"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/newUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/userpass_fillin"
+        android:fontFamily="sans-serif-thin"
+        android:hint="  Username"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textColor="#B5B5B5" />
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/userpass_fillin"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="bold"
+        android:hint="  Password"
+        android:textAlignment="textStart"
+        android:textColor="#B5B5B5" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#0F80F4"
+        android:fontFamily="sans-serif-thin"
+        android:paddingTop="0dp"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</LinearLayout>
