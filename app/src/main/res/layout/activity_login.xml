@@ -10,13 +10,12 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
-   <!-- <ImageView
+   <ImageView
         android:layout_width="match_parent"
         android:layout_height="119dp"
-        android:src="@mipmap/ic_banner" />
-        -->
+        android:src="@mipmap/instagram_logo_foreground" />
 
-    <TextView
+    <!--<TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fontFamily="@font/sofia"
@@ -25,34 +24,38 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#6C6A6A"
         android:textStyle="bold" />
+        -->
 
-    <EditText
+ <EditText
 
-        android:id="@+id/etUsername"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_weight="1"
-        android:ems="10"
-        android:fontFamily="sans-serif-thin"
-        android:hint="Username"
-        android:textStyle="bold"
-        android:textColor="#B5B5B5" />
+     android:id="@+id/etUsername"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="30dp"
+     android:layout_marginRight="30dp"
+     android:layout_weight="1"
+     android:background="@drawable/userpass_fillin"
+     android:ems="10"
+     android:fontFamily="sans-serif-thin"
+     android:hint=" Username"
+     android:textColor="#B5B5B5"
+     android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_weight="1"
-        android:ems="10"
-        android:fontFamily="sans-serif-thin"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:textStyle="bold"
-        android:textColor="#B5B5B5" />
+ <EditText
+     android:id="@+id/etPassword"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="30dp"
+     android:layout_marginTop="15dp"
+     android:layout_marginRight="30dp"
+     android:layout_weight="1"
+     android:background="@drawable/userpass_fillin"
+     android:ems="10"
+     android:fontFamily="sans-serif-thin"
+     android:hint=" Password"
+     android:inputType="textPassword"
+     android:textColor="#B5B5B5"
+     android:textStyle="bold" />
 
 
     <ProgressBar

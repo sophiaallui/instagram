@@ -3,6 +3,11 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:src="@mipmap/instagram_logo_foreground" />
+    <!--
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -12,6 +17,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#6C6A6A"
         android:textStyle="bold" />
+        -->
 
     <TextView
         android:id="@+id/promptUsername"
@@ -53,7 +59,7 @@
     <Button
         android:id="@+id/btnSignup"
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="30dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="50dp"
