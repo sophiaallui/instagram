@@ -3,6 +3,7 @@
 **Instagram** is a photo sharing app similar to Instagram but using Parse as its backend.
 
 Time spent: 
+
 **Instagram Pt1:** **7** hours spent in total
 
 **Instagram Pt2:** **10** hours spent in total 
@@ -72,6 +73,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+- I cannot get rid of the plain-text "instragram" on the toolbar, searched throughout the manifest and any form that would hold a string ...
+- Figuring out how to create things moving in between fragment 
 
 ## Open-source libraries used
 
